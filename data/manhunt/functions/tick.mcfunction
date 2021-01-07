@@ -9,6 +9,4 @@ function manhunt:hint/tick
 scoreboard players enable @a MT_leave
 execute as @a[gamemode=!spectator,scores={MT_leave=1..}] run function manhunt:process_leave
 
-kill @e[type=minecraft:item,nbt={Item:{tag:{ManhuntTeams:1b}}}]
-
 schedule function manhunt:tick 20t replace

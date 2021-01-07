@@ -1,12 +1,9 @@
-kill @e[type=minecraft:chest_minecart,tag=ManhuntPanel] 
-kill @e[type=minecraft:item,nbt={Item:{tag:{ManhuntTeams:1b}}}]
-
-#scoreboard objectives remove MT_difficulty
+scoreboard objectives remove MT_difficulty
 scoreboard objectives remove MT_leave
 scoreboard objectives remove MT_playerId
 scoreboard objectives remove MT_prepared
-#scoreboard objectives remove MT_randomTeams
-#scoreboard objectives remove MT_randomTp
+scoreboard objectives remove MT_randomTeams
+scoreboard objectives remove MT_randomTp
 scoreboard objectives remove MT_teamId
 scoreboard objectives remove MT_teamNum
 scoreboard objectives remove MT_tracking
