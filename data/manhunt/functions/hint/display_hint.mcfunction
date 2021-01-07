@@ -1,0 +1,1 @@
+execute as @a[scores={HT_hintTime=0..}] run title @a actionbar [{"text":"最近的目标距离","extra":[{"score":{"name":"*","objective":"HT_hintDistance"}},"格 "],"color":"yellow"},{"text":"[时间剩余: ","extra":[{"score":{"name":"*","objective":"HT_hintTime"}},"s]"],"color":"red"}]

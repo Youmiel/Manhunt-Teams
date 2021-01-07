@@ -1,0 +1,6 @@
+team join MT_1 @a[scores={MT_teamId=1}]
+team join MT_2 @a[scores={MT_teamId=2}]
+team join MT_3 @a[scores={MT_teamId=3}]
+team join MT_4 @a[scores={MT_teamId=4}]
+team join MT_5 @a[scores={MT_teamId=5}]
+team join MT_6 @a[scores={MT_teamId=6}]
