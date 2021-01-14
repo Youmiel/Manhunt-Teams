@@ -25,6 +25,6 @@ time set 0
 function manhunt:control_panel/load
 function manhunt:hint/load
 function team:create_teams
-#tellraw @a ["[Manhunt - Teams]使用§e/trigger MT_help§f查看帮助\n§11§22§33§44§55§66§77§88§99§aa§bb§cc§dd§ee§ff§gg§hh§ii§jj§kk§ll§mm§nn§oo§pp§qq§rr§ss§tt§uu§vv§ww§xx§yy§zz"]
+tellraw @a ["[Manhunt - Teams]使用§e/trigger MT_help§f查看帮助\n§11§22§33§44§55§66§77§88§99§aa§bb§cc§dd§ee§ff§gg§hh§ii§jj§kk§ll§mm§nn§oo§pp§qq§rr§ss§tt§uu§vv§ww§xx§yy§zz"]
 
 schedule function manhunt:tick 20t replace

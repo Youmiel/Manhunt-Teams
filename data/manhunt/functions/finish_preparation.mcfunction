@@ -6,7 +6,7 @@ execute if score ~randomTp MT_var matches 1 in minecraft:overworld run spreadpla
 scoreboard objectives setdisplay list MT_playerId
 scoreboard players set @a MT_tracking 0
 gamerule doDaylightCycle true
-gamemode survival @a
+gamemode survival @a[gamemode=!spectator]
 clear @a
 
 execute if score ~difficulty MT_var matches 0 run difficulty peaceful

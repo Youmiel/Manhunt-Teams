@@ -18,4 +18,4 @@ function team:remove_teams
 clear @a minecraft:compass{ManhuntTeams:1b}
 
 schedule clear manhunt:tick
-datapack disable "file/Manhunt-Teams"
+datapack disable "file/Manhunt-Teams_v1.0.1"
