@@ -5,4 +5,4 @@ Minecraft manhunt game datapack(vanilla mod) for multi-teams, now only support M
  
 Nine_King for testing server
 
-AlastairGrey, DRmiaojun, Sambty, yy_xiaoyu for testing plays
+AlastairGrey, DRmiaojun, Sambty, yy_xiaoyu, Qian_Ye, 404ntFound for testing plays
