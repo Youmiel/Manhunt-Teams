@@ -5,7 +5,7 @@ Minecraft manhunt game datapack(vanilla mod) for multi-teams, now only support M
 - **/trigger MT_leave** can be used at any time to leave the game and switch to spectator mode
 - If you want to disable this datapack, use **/function manhunt:unload** before disable
 - Before game
-  - Contrl Panel at world spawn can configure the difficulty of the game, random teleportation at start, and random team division
+  - Control Panel at world spawn can configure the difficulty of the game, random teleportation at start, and random team division
   - **/trigger MT_teamNum set \<num\>** to set the number of teams for random division
 - In game
   - **/trigger HT_hint** to get a distance hint(continues for 5 minutes), targeting at a random structure in the dimension that the play is in
