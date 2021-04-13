@@ -1,4 +1,5 @@
 kill @e[type=minecraft:chest_minecart,tag=ManhuntPanel] 
+kill @e[type=minecraft:armor_stand,tag=ManhuntPanel]
 kill @e[type=minecraft:item,nbt={Item:{tag:{ManhuntTeams:1b}}}]
 
 #scoreboard objectives remove MT_difficulty
@@ -18,4 +19,4 @@ function team:remove_teams
 clear @a minecraft:compass{ManhuntTeams:1b}
 
 schedule clear manhunt:tick
-datapack disable "file/Manhunt-Teams_v1.0.1"
+datapack disable "file/Manhunt-Teams"

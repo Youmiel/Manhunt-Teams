@@ -8,6 +8,7 @@ scoreboard players set @a MT_tracking 0
 gamerule doDaylightCycle true
 gamemode survival @a[gamemode=!spectator]
 clear @a
+execute as @a at @s run spawnpoint @s ~ ~ ~
 
 execute if score ~difficulty MT_var matches 0 run difficulty peaceful
 execute if score ~difficulty MT_var matches 1 run difficulty easy
