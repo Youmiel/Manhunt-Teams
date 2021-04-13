@@ -17,11 +17,13 @@ function manhunt:process_help
 
 replaceitem entity @a[gamemode=!spectator] hotbar.8 minecraft:compass{ManhuntTeams:1b,Enchantments:[{lvl:1s,id:"minecraft:vanishing_curse"}],HideFlags:1,display:{Name:'{"text":"准备","italic":false}',Lore:['["手持准备"]']}}
 execute as @a[gamemode=!spectator,nbt={SelectedItem:{id:"minecraft:compass",tag:{ManhuntTeams:1b}}}] run scoreboard players set @s MT_prepared 1
+execute in minecraft:overworld run tp @a[distance=24..] ~ ~ ~
 
 function team:tick
 
 effect give @a[gamemode=!spectator] minecraft:saturation 2 0 true
 effect give @a[gamemode=!spectator] minecraft:resistance 2 4 true
+effect give @a[gamemode=!spectator] minecraft:weakness 2 4 true
 difficulty peaceful
 gamerule doDaylightCycle false
 gamemode adventure @a[gamemode=!spectator] 

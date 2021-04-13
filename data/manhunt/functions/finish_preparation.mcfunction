@@ -3,12 +3,13 @@ kill @e[type=minecraft:chest_minecart,tag=ManhuntPanel]
 function manhunt:allocate_player_id
 execute if score ~randomTeams MT_var matches 1 run function team:divide_teams
 execute if score ~randomTp MT_var matches 1 in minecraft:overworld run spreadplayers ~ ~ 64 256 true @a[gamemode=!spectator]
+execute if score ~randomTp MT_var matches 1 in minecraft:overworld run schedule function manhunt:set_spawnpoint 40t
 scoreboard objectives setdisplay list MT_playerId
 scoreboard players set @a MT_tracking 0
+execute as @a run scoreboard players operation @s MT_tracking = @s MT_playerId 
 gamerule doDaylightCycle true
 gamemode survival @a[gamemode=!spectator]
 clear @a
-execute as @a at @s run spawnpoint @s ~ ~ ~
 
 execute if score ~difficulty MT_var matches 0 run difficulty peaceful
 execute if score ~difficulty MT_var matches 1 run difficulty easy
