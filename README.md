@@ -1,7 +1,7 @@
 # Manhunt-Teams
 Minecraft manhunt game datapack(vanilla mod) for multi-teams, now only support MC1.16.x<br>
 ### General Help(PLEASE READ BEFORE PLAY)
-- Provide a clickable quick menu in chat window for MCDReforged(or other plugin/datapack), use **/function manhunt:click_menu** to show it
+- This datapack provide a clickable quick menu in chat window for MCDReforged(or other plugin/datapack), use **/function manhunt:click_menu** to show it
 - **/trigger MT_leave** can be used at any time to leave the game and switch to spectator mode
 - If you want to disable this datapack, use **/function manhunt:unload** before disable
 - Before game
